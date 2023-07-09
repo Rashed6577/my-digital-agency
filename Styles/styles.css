@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header styles */
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg'), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.name{
+    color: orangered;
+}
+.btn-primary{
+    color: white;
+    background-color: orangered;
+    padding: 12px 20px;
+    border: 0;
+}
+.btn{
+    color: black;
+    background-color: white;
+    padding: 12px 20px;
+    border: 0;
+}
+.banner-discription{
+    margin: 15px;
+
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+/* service styles */
+.service{
+    color: white;
+    background-image: url('../asset/image/footer-bg.png'),  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.btn-next{
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.service-description{
+    color: white;
+    margin-top: 15px;
+}
+.service-item{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.another-div{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-right: 2px solid orangered;
+    padding-right: 50px;
+}
+.pp{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#md{
+    color: orangered;
+    margin-left: 0;
+    
+}
+.icon{
+    width: 180px;
+}
+.box{
+    width: 220px;
+    height: 220px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+.fx{
+    display: flex; 
+}
+#st{
+    font-size: 35px;
+}
+.appointment{
+    display: flex;
+    background-color: orangered;
+    border-radius: 10px;
+    justify-content:space-around;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 25px 10px 25px 10px;
+    text-align: center;
+    color: white;
+    margin-top: -70px;
+}
+.picon{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.appointment-description{
+    text-align: center;
+    color: white;
+    border-left: 2px solid gray;
+    padding-left: 10px;
+}
+.num{
+    text-align: start;
+}
+.blog{
+    height: 70vh;
+}
+.blog-title{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+}
+.card{
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.blog-tital{
+    margin: 10px 0 10px 0;
+}
+footer{
+    background-image: url('../asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+}
+.footer-contant{
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.copy{
+    color: white;
+    text-align: center;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+.icon{
+    color: white;
+    width: 20px;
+    height: 20px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#ic{
+    display: flex;
+}
